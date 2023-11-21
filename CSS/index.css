@@ -1,0 +1,42 @@
+/* Applying Styles */
+header{
+    background-color:aquamarine;
+    height: 100px;
+    text-align: center;
+    padding:10px ;
+    font-size: 50px;
+}
+nav{
+    width: 30%;
+    background-color:coral;
+    height:180px;
+    float: left;
+}
+nav ul{
+    list-style-type: style type bul;
+}
+nav ul li{
+    padding: 10px 0;
+}
+nav ul li a{
+    text-decoration: none;
+}
+article{
+    width: 70%;
+    height: 180px;
+    background-color: darksalmon;
+    float: left;
+    text-align: center;
+}
+/* pseudo element selector */
+section::after{
+    display:table;
+    content: "";
+    clear: both;
+}
+footer{
+    text-align: center;
+    background-color: bisque;
+    padding: 40px 0;
+    font-size: 30px;
+}
